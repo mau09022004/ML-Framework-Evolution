@@ -33,4 +33,27 @@ ML-Framework-Evolution/
 │
 └── README.md                    
 ```
-
+## Technologies Used
+Programming & Environment: Python, Jupyter Notebook 
+- Data Processing & Analysis: Pandas, NumPy
+- Machine Learning & Preprocessing: Scikit-learn (preprocessing, model selection, evaluation metrics)
+- Deep Learning: TensorFlow
+- Gradient Boosting Frameworks: LightGBM, CatBoost
+- Hyperparameter Optimization: Optuna
+- System Monitoring & Utilities: psutil, time, os
+## Pipeline
+There are 5 steps:
+1. Data preparation: load data, handle missing values, encode categorical features, and apply feature scaling.
+2. Exploratory Data Analysis (EDA): explore data distributions, relationships, and detect potential issues.
+3. Modeling: build and train models by using multiple frameworks.
+4. Optimization: Tune model using Optuna.
+5. Model evaluation & iteration: evaluate by using suitable metrics.
+## How to run
+ Clone all repository:
+ ```bash
+git clone https://github.com/mau09022004/ML-Framework-Evolution.git
+cd ML-Framework-Evolution
+```
+## Author
+* **Bùi Công Mậu**: [mau09022004](https://github.com/mau09022004)
+* **Thái Hữu Thọ**: [huuThoTT](https://github.com/huuThoTT)
