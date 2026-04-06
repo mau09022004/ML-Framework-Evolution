@@ -48,6 +48,12 @@ There are 5 steps:
 3. Modeling: build and train models by using multiple frameworks.
 4. Optimization: Tune model using Optuna.
 5. Model evaluation & iteration: evaluate by using suitable metrics.
+## Key Insights
+- Robust preprocessing and feature scaling had a greater impact on performance than increasing model complexity early on.
+- Baseline experiments with Scikit-learn were essential for understanding feature behavior and establishing reliable benchmarks.
+- Deep Learning using TensorFlow required higher computational cost and did not consistently outperform tree-based methods on tabular data.
+- Gradient Boosting models with LightGBM and CatBoost delivered the best RMSLE performance.
+- Systematic hyperparameter optimization with Optuna led to significant performance gains over default configurations.
 ## How to run
  Clone all repository:
  ```bash
